@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 500px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+}
+
+.innerBlock {
+  flex: 1;
+  border: 1px solid black;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
